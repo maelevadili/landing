@@ -23,6 +23,7 @@ h1, h2, h3, h4 {
 }
 
 a {
+  font-family: 'Gudea', sans-serif;
   text-decoration: none;
   color: #6AD58B;
 }
