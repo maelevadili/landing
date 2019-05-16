@@ -1,0 +1,78 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Gudea|Playfair+Display');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/buttons.css");
+@import url("components/footer.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Gudea', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+/* Media queries */
+@media(max-width: 1200px) {
+  .container {
+    width: 850px;
+  }
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    width: 180px;
+  }
+}
+
+@media(max-width: 200px) {
+  .container {
+    width: 140px;
+  }
+}

@@ -1,0 +1,22 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/skincare-that-keeps-us-looking-young-and-fresh-royalty-free-image-175417362-1537993160.jpg?crop=1.00xw:0.758xh;0,0.188xh&resize=768:*);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
